@@ -1,0 +1,38 @@
+.search-form {
+    width: 100%;
+    max-width: 680px;
+  }
+  
+  .search-form-elem {
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+    border-radius: 3.8rem;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  
+  .search-form-elem .form-control {
+    flex: 9;
+    font-size: 2rem;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+  
+  .search-form-elem button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .search-form-elem button svg {
+    color: purple;
+    font-size: 2rem;
+  }
+  
